@@ -310,11 +310,6 @@ footer{
         margin-bottom: 1%;
 	}
 
-	.services-header{
-		display:block;
-		margin:0;
-	}
-
 	header{
         align-items: center;
         flex-direction: column;
@@ -347,6 +342,39 @@ footer{
 
     .contact div p{
         margin:2% 0;
+    }
+ 
+	.services-header{
+		display:block;
+		margin:0;
+	}
+
+    .services-header-img{
+        margin-top: 3rem;
+    }
+
+    .services-header{
+        display: flex;
+        align-items: center;
+    }
+
+    .services-header div{
+        width: 80%;
+    }
+
+    .services-top{
+        justify-content: space-around;
+    }
+    .services-top-child{
+        width: 40%;
+    }
+
+    .services-mid{
+        justify-content: space-around;
+    }
+
+    .services-mid-child{
+        width: 40%;
     }
 }
 /* Phone */
@@ -414,6 +442,9 @@ footer{
         margin:2% 0;
     }
 
+	.services-header-img{
+		margin:0;
+	}
 	.services-top{
 		justify-content: center;
 		margin-top:5%;
